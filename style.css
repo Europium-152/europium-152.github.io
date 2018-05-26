@@ -5,15 +5,25 @@ body {
     font-size: 24px;
     line-height: 1.4;
     text-transform: none;
+    background-image: url("mapa.jpg");
+    background-size: cover;
+}
+
+#large-container {
+	margin:0 auto;
+	width: 820px;
+	padding: 0px 10px;
+	background-color: rgba(241, 241, 241, 0.9);
 }
 
 .entry-container {
-	width:800px; 
+	width:760px; 
 	margin:0 auto;
+	padding: 0px 0px 10px 0px;
 }
 
 #main-header {
-	height: 120px;
+	height: 120px auto;
 	text-align: center;
 }
 
@@ -28,4 +38,19 @@ body {
     vertical-align: middle;
     display: inline;
     padding: 0px 10px;
+    float: none;
+}
+
+section {
+	clear: both;
+}
+
+a:link, a:visited {
+	text-decoration: none;	
+	color: rgb(112, 8, 5);
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color: rgb(242, 6, 0);
 }
