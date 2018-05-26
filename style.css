@@ -1,0 +1,31 @@
+body {
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    text-transform: none;
+}
+
+.entry-container {
+	width:800px; 
+	margin:0 auto;
+}
+
+#main-header {
+	height: 120px;
+	text-align: center;
+}
+
+#main-header h1 {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#flag {
+    width:100px; /* you can use % */
+    height: auto;
+    vertical-align: middle;
+    display: inline;
+    padding: 0px 10px;
+}
